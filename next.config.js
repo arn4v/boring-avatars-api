@@ -19,7 +19,7 @@ let config = {
 		return [
 			{
 				source: "/",
-				destination: "https://github.com/arn4v",
+				destination: "https://github.com/arn4v/boring-avatars-api",
 				permanent: false,
 			},
 		];
