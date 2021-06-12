@@ -6,13 +6,13 @@ REST API that generates SVG avatars using the [boring-avatars](https://github.co
 
 ```typescript
 type Query = {
-  size?: int;
-  variant?: "marble" | "beam" | "pixel" | "sunset" | "ring" | "bauhaus";
+	size?: int; // Default: 80(px)
+	variant?: "marble" | "beam" | "pixel" | "sunset" | "ring" | "bauhaus";
 };
 ```
 
 ## Usage/Examples
 
-```bash
+```shell
 curl https://boring-avatars-api.vercel.app/api/avatar?size=40&variant=marble
 ```
